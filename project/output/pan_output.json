@@ -1,0 +1,13 @@
+{
+  "document_type": "PAN",
+  "fields": {},
+  "missing_fields": [
+    "pan",
+    "incorporation_date",
+    "name"
+  ],
+  "debug": {
+    "raw_text_length": 6,
+    "text_preview": "idWQ¥("
+  }
+}

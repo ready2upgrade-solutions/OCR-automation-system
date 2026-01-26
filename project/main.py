@@ -1,38 +1,18 @@
-# from core.extractor import extract_document_text
-# import json
-
-# PDF_PATH = r"C:\Users\Meet patel\MEET\projects\ocr\testing_data\Udyam_Registration_Certificate_with_annexure.pdf"
-
-# def main():
-#     pages = extract_document_text(PDF_PATH)
-
-#     output = {
-#         "total_pages": len(pages),
-#         "pages": pages
-#     }
-
-#     with open("output/result.json", "w", encoding="utf-8") as f:
-#         json.dump(output, f, indent=2, ensure_ascii=False)
-
-#     print("✅ Text extraction completed (PDF + OCR fallback)")
-
-# if __name__ == "__main__":
-#     main()
-
+import json
 from core.extractor import extract_document_text
-from core.extractors.udyam import extract_udyam_fields
+from core.extractors.pan_company_final import extract_pan_company_fields
 
-PDF_PATH = r"C:\Users\Meet patel\MEET\projects\ocr\testing_data\Udyam_Registration_Certificate_with_annexure.pdf"
 
-def main():
-    pages = extract_document_text(PDF_PATH)
+def run_pan_extraction(pdf_path: str):
+    pages = extract_document_text(pdf_path)
+    raw_text = " ".join(page["text"] for page in pages)
 
-    # TEMP: manually choose UDYAM (classifier later)
-    udyam_result = extract_udyam_fields(
-        raw_text=" ".join(p["text"] for p in pages)
-    )
+    result = extract_pan_company_fields(raw_text)
+    return result
 
-    print(udyam_result)
 
 if __name__ == "__main__":
-    main()
+    PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\OCR-automation-system\testing_data\PAN_Card_-_Company.pdf"
+
+    output = run_pan_extraction(PAN_PDF_PATH)
+    print(json.dumps(output, indent=2))
