@@ -1,6 +1,6 @@
 import json
 from core.extractor import extract_document_text
-from core.extractors.pan_company_final import extract_pan_company_fields
+from core.extractors.pan_card import extract_pan_company_fields
 
 import os
 os.environ["FLAGS_use_onednn"] = "false"
@@ -36,9 +36,9 @@ def run_pan_extraction(pdf_path: str):
 if __name__ == "__main__":
     # PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\testing_data\koncem products\20. Company PAN.pdf"
     # PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\testing_data\sygnia brandworks llp\Company PAN.pdf"
-    PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\testing_data\SHREEDHAR ENTERPRISE\Shreedhar PAN card.pdf" # not getting anything
+    # PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\testing_data\SHREEDHAR ENTERPRISE\Shreedhar PAN card.pdf" # director 
     # PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\testing_data\goalseek shared service\20. Company PAN.pdf"
-    # PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\OCR-automation-system\testing_data\PAN_Card_-_Company.pdf"
+    PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\OCR-automation-system\testing_data\PAN_Card_-_Company.pdf"
 
     output = run_pan_extraction(PAN_PDF_PATH)
 

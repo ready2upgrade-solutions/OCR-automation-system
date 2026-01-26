@@ -169,7 +169,7 @@
 import json
 import os
 from core.extractor import extract_document_text
-from core.extractors.udyam_updated_final import extract_udyam_fields
+from core.extractors.udhyam_certi import extract_udyam_fields
 
 
 def run_udyam_extraction(pdf_path: str, output_dir: str = "output"):
