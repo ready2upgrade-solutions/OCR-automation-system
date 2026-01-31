@@ -38,7 +38,7 @@ if __name__ == "__main__":
     # PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\testing_data\sygnia brandworks llp\Company PAN.pdf"
     # PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\testing_data\SHREEDHAR ENTERPRISE\Shreedhar PAN card.pdf" # director 
     # PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\testing_data\goalseek shared service\20. Company PAN.pdf"
-    PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\OCR-automation-system\testing_data\PAN_Card_-_Company.pdf"
+    PAN_PDF_PATH = r"C:\Users\Tirth\OneDrive\Documents\codes\ocr\testing_data\STELLINOX STAINLESS\PAN_Card_-_Company.pdf"
 
     output = run_pan_extraction(PAN_PDF_PATH)
 

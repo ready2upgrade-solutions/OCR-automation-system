@@ -1,0 +1,23 @@
+{
+  "document_type": "GST_CERTIFICATE",
+  "fields": {
+    "name": "STELLINOX STAINLESS PRIVATE LIMITED",
+    "constitution_of_business": "Private Limited",
+    "principal_address": { 
+      "pin_code": "380060",
+      "building_flat_no": "B-26",
+      "premises_name": "GALAXY SIGNATURE",
+      "road_street": "SCIENCE CITY ROAD",
+      "locality": "SOLA"
+    },
+    "particulars_of_approving_authority": "Gujarat Goods and Services Tax Act, 2017",
+    "gst_number": "24ABFCS7205N1Z3",
+    "total_no_of_additional_places": "1",
+    "additional_place_of_business": "NEW SURVEY NO 33, 34, 35, NEW SURVEY NO 34, NEW SURVEY NO 35, VILLAGE, JASALPUR, TALUKA - KADI, Mehsana, Gujarat, 382715"
+  },
+  "missing_fields": [],
+  "debug": {
+    "raw_text_length": 1995,
+    "text_preview": "(Amended)\nwoa v4d\nGovernment of India\nForm GST REG-06\n[See Rule 10(1)]\nRegistration Certificate\nRegistration Number :24ABFCS7205N1Z3\n1.\nLegal Name\nSTELLINOX STAINLESS PRIVATE LIMITED\n2.\nTrade Name, if any\nSTELLINOX STAINLESS PRIVATE LIMITED\n3.\nConstitution of Business\nPrivate Limited Company\n4.\nAddr"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "document_type": "UDYAM",
+  "fields": {
+    "udyam_number": "UDYAM-GJ-01-0090271",
+    "enterprise_name": "M/S STELLINOX STAINLESS PRIVATE LIMITED",
+    "pan": "ABFCS7205N",
+    "mobile": "9328255422",
+    "email": "STELLINOXSTAINLESS@GMAIL.COM",
+    "incorporation_date": "11/03/2021",
+    "commencement_date": null,
+    "official_address": { 
+      "flat_no": "B-26",
+      "village_town": "SOLA",
+      "block": "SCIENCE CITY",
+      "road": "SCIENCE",
+      "city": "AHMEDABAD",
+      "state": "GUJARAT",
+      "district": "AHMADABAD",
+      "pin": "380060",
+      "mobile": "9328255422",
+      "email": "STELLINOXSTAINLESS@GMAIL.COM"
+    }
+  },
+  "tables": {
+    "classification_history": [
+      {
+        "sno": "1",
+        "classification_year": "2025-26",
+        "enterprise_type": "MEDIUM",
+        "classification_date": "01/04/2025"
+      },
+      {
+        "sno": "2",
+        "classification_year": "2024-25",
+        "enterprise_type": "MEDIUM",
+        "classification_date": "27/04/2024"
+      },
+      {
+        "sno": "3",
+        "classification_year": "2023-24",
+        "enterprise_type": "MICRO",
+        "classification_date": "09/05/2023"
+      },
+      {
+        "sno": "4",
+        "classification_year": "2022-23",
+        "enterprise_type": "MICRO",
+        "classification_date": "26/06/2022"
+      }
+    ],
+    "employment_details": {
+      "male": 40,
+      "female": 0,
+      "other": 0,
+      "total": 40
+    },
+    "investment_details": [
+      {
+        "sno": "1",
+        "financial_year": "2023-24",
+        "enterprise_type": "MEDIUM",
+        "wdv": 280717873.0,
+        "exclusion_cost": 0.0,
+        "net_investment": 280717873.0,
+        "total_turnover": 132273864.0,
+        "export_turnover": 0.0,
+        "net_turnover": 132273864.0,
+        "itr_filled": true,
+        "itr_type": "3, 5,\n6\n2\n2022"
+      },
+      {
+        "sno": "3",
+        "financial_year": "2021-22",
+        "enterprise_type": "MICRO",
+        "wdv": 0.0,
+        "exclusion_cost": 0.0,
+        "net_investment": 0.0,
+        "total_turnover": 0.0,
+        "export_turnover": 0.0,
+        "net_turnover": 0.0,
+        "itr_filled": true,
+        "itr_type": "3, 5,\n6\n4\n2020"
+      }
+    ],
+    "units_details": [
+      {
+        "sno": "1",
+        "unit_name": "M/S STELLINOX\nSTAINLESS PRIVATE\nLIMITED",
+        "flat": "33,34 &35\nJASALPUR",
+        "building": "JASALPUR",
+        "village_town": "KADI",
+        "block": "JASALPUR",
+        "road": "MEHSANA",
+        "pin": "382715",
+        "state": "GUJARAT",
+        "district": "MAHESANA"
+      }
+    ],
+    "nic_codes": [],
+    "bank_details": {
+      "bank_name": "ICICI BANK LIMITED",
+      "ifsc_code": "ICIC0007713",
+      "account_number": "771305000097"
+    }
+  },
+  "flags": [],
+  "missing_fields": []
+}

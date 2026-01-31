@@ -4,11 +4,11 @@
     "pan": "ABFCS7205N",
     "pan_type": "COMPANY",
     "name": "STELLINOX STAINLESS PRIVATE LIMITED",
-    "incorporation_date": "11/03/2021"
+    "incorporation_date": "11/03/2021" 
   },
   "missing_fields": [],
   "debug": {
-    "raw_text_length": 2263,
-    "text_preview": "FEHIST BTTCT HIRA HRCOR INCOME TAX DEPARTMENT GOVT. OF INDIA\nABFCS7205N\nSTELLINOX STAINLESS PRIVATE LIMITED FAH7\nGMT-05:38\nF2102040110 213144 141,1,310,,201,1 F1173$01215113714120613721141\narei wua $\\"
+    "raw_text_length": 2266,
+    "text_preview": "FEHIST\nBTTCT\nHIRA\nHRCOR\nINCOME TAX DEPARTMENT\nGOVT. OF INDIA\narei wua\n$\\fra }$\nFeTteft\nmen\nFi041\ncTs$\ne - Permanent\nAccount\nNumber\n(e-PAN) Card\nABFCS7205N\n714\nName\nSTELLINOX STAINLESS PRIVATE LIMITED\n"
   }
 }

@@ -1,0 +1,104 @@
+{
+  "report_generated_at": "2026-01-31T16:38:33.787728",
+  "entity_info": {
+    "name": "STELLINOX STAINLESS PRIVATE LIMITED",
+    "pan": "ABFCS7205N",
+    "gst_number": "24ABFCS7205N1Z3",
+    "udyam_number": "UDYAM-GJ-01-0090271",
+    "incorporation_date": "11/03/2021"
+  },
+  "summary": {
+    "total_rules": 12,
+    "passed": 11,
+    "failed": 1,
+    "warnings": 0,
+    "skipped": 0,
+    "critical_failures": 0,
+    "pass_rate": "91.7%",
+    "overall_status": "FAILED"
+  },
+  "mismatches": [
+    {
+      "rule": "ADDR_GST_PRINCIPAL_UDYAM_OFFICE",
+      "status": "FAIL",
+      "message": "Address mismatch (2/5 fields match)",
+      "comparison": {
+        "gst": "B-26, GALAXY SIGNATURE, SCIENCE CITY ROAD, SOLA, 380060",
+        "udyam": "B-26, SCIENCE, SOLA, AHMEDABAD, AHMADABAD, GUJARAT, 380060",
+        "matched_fields": [
+          "pin: 380060",
+          "locality: SOLA"
+        ],
+        "score": "2/5"
+      }
+    }
+  ],
+  "matches": [
+    {
+      "rule": "ADDR_GST_ADDITIONAL_UDYAM_FACTORY",
+      "status": "PASS",
+      "message": "Found 1 matching factory address(es) by PIN",
+      "matched": "Matching PINs: 382715"
+    },
+    {
+      "rule": "PIN_MATCH_GST_UDYAM",
+      "status": "PASS",
+      "message": "PIN codes match: 380060",
+      "matched": "380060"
+    },
+    {
+      "rule": "CONSTITUTION_GST_UDYAM",
+      "status": "PASS",
+      "message": "Constitution match: PRIVATE LIMITED",
+      "matched": "PRIVATE LIMITED"
+    },
+    {
+      "rule": "INCORPORATION_VS_COMMENCEMENT",
+      "status": "PASS",
+      "message": "Commencement date not available for comparison",
+      "matched": "11/03/2021"
+    },
+    {
+      "rule": "ENTITY_AGE_CHECK",
+      "status": "PASS",
+      "message": "Entity is EXISTING (incorporated 4.9 years ago)",
+      "matched": "11/03/2021"
+    },
+    {
+      "rule": "INCORPORATION_DATE_PAN_UDYAM",
+      "status": "PASS",
+      "message": "Incorporation dates match: 11/03/2021",
+      "matched": "11/03/2021"
+    },
+    {
+      "rule": "NAME_MATCH_GST_UDYAM",
+      "status": "PASS",
+      "message": "GST name matches Udyam name",
+      "matched": "STELLINOX STAINLESS PRIVATE LIMITED"
+    },
+    {
+      "rule": "NAME_MATCH_PAN_GST",
+      "status": "PASS",
+      "message": "PAN name matches GST name",
+      "matched": "STELLINOX STAINLESS PRIVATE LIMITED"
+    },
+    {
+      "rule": "NAME_MATCH_PAN_UDYAM",
+      "status": "PASS",
+      "message": "PAN name matches Udyam name",
+      "matched": "STELLINOX STAINLESS PRIVATE LIMITED"
+    },
+    {
+      "rule": "PAN_MATCH_GST",
+      "status": "PASS",
+      "message": "PAN number matches GST",
+      "matched": "ABFCS7205N"
+    },
+    {
+      "rule": "PAN_MATCH_UDYAM",
+      "status": "PASS",
+      "message": "PAN number matches Udyam",
+      "matched": "ABFCS7205N"
+    }
+  ]
+}

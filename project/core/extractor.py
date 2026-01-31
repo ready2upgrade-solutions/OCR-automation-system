@@ -27,7 +27,7 @@
 #         for p in extract_ocr_text(pdf_path)
 #     ]
 from core.pdf_text import extract_pdf_text
-from core.text_normalizer import normalize_text
+# from core.text_normalizer import normalize_text
 import re
 
 
@@ -61,7 +61,7 @@ def extract_document_text(pdf_path):
             {
                 "page": p["page"],
                 "source": "pdf",
-                "text": normalize_text(p["text"])
+                "text": p["text"]
             }
             for p in usable_pages
         ]
@@ -72,7 +72,7 @@ def extract_document_text(pdf_path):
         {
             "page": p["page"],
             "source": "ocr",
-            "text": normalize_text(p["text"])
+            "text": p["text"]
         }
         for p in extract_ocr_text(pdf_path)
     ]
